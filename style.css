@@ -1,0 +1,222 @@
+body {
+    background: linear-gradient(rgb(243, 243, 0), blue);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input {
+    height: 35px;
+    border: none;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.384);
+border-radius: 100px;
+width: 600px;
+padding: 7px 50px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.photo {
+    background: transparent;
+    border: none;
+    position: absolute;
+    margin-left: 530px;
+}
+.micro {
+    background: transparent;
+    border: none;
+    position: absolute;
+    margin-left: 440px;
+}
+.find {
+    background: transparent;
+    border: none;
+    position: absolute;
+    margin-left: -560px;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background: rgba(129, 129, 129, 0.671);
+    top: 0px;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-btn {
+    border-radius: 100px;
+    padding: 10px;
+    margin-top: 25px;
+    background: white;
+}
+
+.modal-btn.l {
+    border: 1px solid #ffa1a1cc;
+    color: #855305;
+    transition: 0.2s;
+}
+
+.modal-btn.l:hover {
+    background: #c5c5c567;
+
+}
+
+
+.modal-btn.r {
+    background: #70707052;
+    color: white;
+    border: none;
+}
+.btns {
+    text-align: right;
+}
+
+.modal-btn.r:hover {
+    background: #855305;
+}
+
+.modal {
+    height: 270px;
+    width: 500px;
+    background: white;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.n, .u {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px 5px 0 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: rgb(214, 214, 214);
+    transition: 0.2s;
+}
+
+.n:hover, .u:hover {
+    background: rgb(185, 185, 185);
+}
+
+.name {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.url {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.a1, .a2 {
+    border-radius: 100px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    transition: .2s;
+}
+ 
+.a1:hover, .a2:hover {
+    background: rgba(0, 0, 0, 0.178);
+}
+.center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.b1 {
+    border-radius: 100px;
+}
+
+.top {
+    background: none;
+    padding: 20px;
+    text-align: right;
+}
+
+input {
+    padding: 10px;
+}
+
+.center {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.left {
+    bottom: 10px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.534);
+    left: 10px;
+    text-align: center;
+    padding: 15px;
+    transition: 2s;
+    border-radius: 10px;
+}
+   
+.left:hover {
+    background: rgba(0, 0, 0, 0.055);
+}
+
+.left-text {
+    text-decoration: underline;
+    align-items: center;
+    color: rgba(255, 254, 253, 0.897);
+    
+}
+
+.google {
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+
+.favourite-logo {
+    width: 50px;
+}
+
+.favourite-link {
+width: 100px;
+overflow: hidden;
+text-align: center;
+}
+
+.gmail {
+    margin-right: 20px;
+}
+.favourites {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.favourite:hover {
+    background: rgba(252, 250, 250, 0.151);
+}
+
+.favourite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: .2s;
+    padding: 7px;
+    border-radius: 5px;
+}
